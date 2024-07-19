@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    clean: true, // Ensures the dist folder is cleaned before each build
   },
   module: {
     rules: [
